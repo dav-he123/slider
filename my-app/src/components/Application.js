@@ -1,8 +1,8 @@
 import React from "react";
 
-import "components/Application.scss";
+import "../components/Application.scss";
 
-export default function Application(props) {
+export default function Application() {
   return (
     <main className="layout">
       <section className="sidebar">
