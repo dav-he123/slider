@@ -2,14 +2,20 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 .main {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   // width: 30vw;
-  width: 31rem;
-  height: 720px;
+  width: 32rem;
+  // height: 720px;
+  height: 100%;
   background-color: paleturquoise;
+  position: fixed;
 }
 
 .profile {
@@ -34,6 +40,7 @@
     margin-right: 3%;
     align-items: center;
     justify-content: center;
+    // position: fixed;
   }
 
   &__top {
@@ -45,16 +52,21 @@
     // justify-content: center;
     align-items: center;
     padding: 1% 1% 1% 2%;
+    // position: fixed;
+
   }
 
   &__image {
     // border-style: solid;
     // border-color: papayawhip;
     // margin-top: 20%;
+    // display: flex;
     height: 50%;
     width: 30%;
     padding: 1%;
-    padding-top: 0%;
+    padding-top: 10%;
+    position: relative;
+
   }
 
   &__content {
@@ -68,6 +80,8 @@
     align-items: center;
     justify-content: space-around;
     // background-color: paleturquoise;
+    // position: fixed;
+
   }
 
   &__title {

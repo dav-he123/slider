@@ -49,7 +49,13 @@ export default function Profile() {
           </div> */}
            {/* <Toolbar/> */}
         {/* </div> */}
+         
+         {/* <div style = {{height: '100%'}} > */}
+          
+          <div>
           <BottomDrawer />
+         </div>
+
       </form>
 
     </div>

@@ -6,10 +6,12 @@ import Button from "./Button";
 const BottomDrawer = props => (
 
   <nav className = "bottom-drawer">    
-   <Button type="submit">Show More</Button>
+
+    <div className="bottom-drawer--button">
+      <Button type="submit">Show More</Button>
+    </div> 
 
   </nav>
-
 
 );
 

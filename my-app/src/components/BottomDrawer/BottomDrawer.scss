@@ -1,0 +1,21 @@
+.bottom-drawer {
+
+  // height: 100%;
+  background-color: palevioletred;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  // position: fixed;
+  width: 32rem;
+  height: 1000rem;
+
+
+    &--button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+      // height: 90%;
+      // height: 200rem;
+      // position: relative;
+    }
+
+}
