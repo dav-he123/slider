@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProfileComponent.scss";
-import Button from "../BottomDrawer/Button";
+// import Button from "../BottomDrawer/Button";
 
 import Toolbar from "../Toolbar/Toolbar";
 
@@ -44,14 +44,13 @@ export default function Profile() {
         </div>
 
         {/* <div className="profile__bottom"> */}
-          <div className="profile__bottom--button">
+          {/* <div className="profile__bottom--button">
             <Button type="submit">Show More</Button>
-          </div>
-           <Toolbar/>
+          </div> */}
+           {/* <Toolbar/> */}
         {/* </div> */}
+          <BottomDrawer />
       </form>
-
-      <BottomDrawer />
 
     </div>
   );
