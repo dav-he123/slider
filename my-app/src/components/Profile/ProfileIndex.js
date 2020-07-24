@@ -1,6 +1,9 @@
 import React from "react";
 import "./ProfileComponent.scss";
-import Button from "../Button";
+import Button from "../BottomDrawer/Button";
+
+import Toolbar from "../Toolbar/Toolbar";
+
 
 export default function Profile() {
   return (
@@ -23,8 +26,6 @@ export default function Profile() {
           <input
             // ref={register}
             className="creation__create-input text--semi-bold"
-            name="email"
-            type="email"
             placeholder="Enter Name"
           />
 
@@ -34,10 +35,8 @@ export default function Profile() {
           <label for="password">Location:</label>
           <input
             // ref={register}
-            id="password"
+            // id="password"
             className="creation__create-input text--semi-bold"
-            name="password"
-            type="password"
             placeholder="Enter Location"
           />
         </div>
@@ -46,6 +45,7 @@ export default function Profile() {
           <div className="profile__bottom--button">
             <Button type="submit">Show More</Button>
           </div>
+           <Toolbar/>
         </div>
       </form>
     </div>

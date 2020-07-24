@@ -2,7 +2,7 @@ import React from "react";
 import { action } from "@storybook/addon-actions";
 // import { Button } from "@storybook/react/demo";
 
-import Button from "../components/Button";
+import Button from "../components/BottomDrawer/Button";
 
 export default {
   title: "Button",
