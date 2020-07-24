@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProfileComponent.scss";
+import Button from "../Button";
 
 export default function Profile() {
   return (
@@ -43,7 +44,7 @@ export default function Profile() {
 
         <div className="profile__bottom">
           <div className="profile__bottom--button">
-            {/* <Button type="submit">Profile</Button> */}
+            <Button type="submit">Show More</Button>
           </div>
         </div>
       </form>
