@@ -14,8 +14,9 @@ export default function Button(props) {
   return (
     <button //uses props.children value as the button text
       className={buttonClass} //button element is wrapped in Button component
-      onClick={props.onClick}
+      // onClick={props.onClick}
       disabled={props.disabled}
+      onClick={props.click}
     >
       {props.children}
     </button>

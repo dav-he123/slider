@@ -8,7 +8,7 @@ const BottomDrawer = props => (
   <nav className = "bottom-drawer">    
 
     <div className="bottom-drawer--button">
-      <Button type="submit">Show More</Button>
+      <Button click = {props.buttonHandlerToggle}>Show More</Button>
     </div> 
 
   </nav>
