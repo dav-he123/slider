@@ -15,13 +15,13 @@
   background-color: transparent;
 }
 
-// .button:hover {
-//   @include button-active;
+.button:hover {
+  // @include button-active;
 
-//   color: $black;
-//   background-color: $white;
-//   border: 2px solid transparent;
-// }
+  color: $black;
+  background-color: $white;
+  border: 2px solid transparent;
+}
 
 .button--confirm {
   color: $confirm-color;
@@ -32,4 +32,12 @@
 .button--confirm:hover {
   color: $white;
   background-color: $confirm-color;
+}
+
+.buttonLogin:last-of-type {
+  margin-right: 0;
+}
+
+.buttonLogin:focus {
+  outline: none;
 }
