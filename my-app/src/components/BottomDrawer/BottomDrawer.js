@@ -1,19 +1,15 @@
 import React from "react";
-// import Button from "./Button";
+import "./BottomDrawer.scss";
 
 
-export default function BottomDrawer(props) {
+const BottomDrawer = props => (
 
-  <nav> 
-     
+  <nav className = "bottom-drawer">    
   
   </nav>
 
-  return (
 
+);
 
+export default BottomDrawer;
 
-
-  );
-
-}

@@ -89,12 +89,12 @@
     background-color: lightgray;
   }
 
-  &__bottom {
-    height: 20%;
+  // &__bottom {
+    // height: 20%;
     // height: 20rem;
-    width: 100%;
-    background-color: palevioletred;
-    transition: color .3s;
+    // width: 100%;
+    // background-color: palevioletred;
+    // transition: color .3s;
 
     &--button {
       display: flex;
@@ -102,7 +102,7 @@
       align-items: center;
       height: 50%;
     }
-  }
+  // }
 }
 
 // }

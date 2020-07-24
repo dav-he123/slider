@@ -4,6 +4,8 @@ import Button from "../BottomDrawer/Button";
 
 import Toolbar from "../Toolbar/Toolbar";
 
+import BottomDrawer from "../BottomDrawer/BottomDrawer";
+
 
 export default function Profile() {
   return (
@@ -41,13 +43,16 @@ export default function Profile() {
           />
         </div>
 
-        <div className="profile__bottom">
+        {/* <div className="profile__bottom"> */}
           <div className="profile__bottom--button">
             <Button type="submit">Show More</Button>
           </div>
            <Toolbar/>
-        </div>
+        {/* </div> */}
       </form>
+
+      <BottomDrawer />
+
     </div>
   );
 }
