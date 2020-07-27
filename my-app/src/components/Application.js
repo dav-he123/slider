@@ -11,12 +11,11 @@ export default function Application() {
   return (
     <main className="layout">
       <section className="sidebar">
-
         <hr className="sidebar__separator sidebar--centered" />
+                  {/* <BackDrop /> */}
         <nav className="sidebar__menu">
           <Profile />
           {/* <BackDrop /> */}
-
         </nav>
       </section>
       <section className="slider"></section>

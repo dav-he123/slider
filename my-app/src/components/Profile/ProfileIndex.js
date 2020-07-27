@@ -37,7 +37,7 @@ export default function Profile() {
       <form className="profile">
           {bottomDrawer}
           {backdrop}
-          <BackDrop />
+          {/* <BackDrop /> */}
 
         <div className="profile__top">
           <div className="profile__title">Profile Info</div>
@@ -72,26 +72,9 @@ export default function Profile() {
           />
         </div>
 
-        {/* <div className="profile__bottom"> */}
-          {/* <div className="profile__bottom--button">
-            <Button type="submit">Show More</Button>
-          </div> */}
-           {/* <Toolbar/> */}
-        {/* </div> */}
-         
-         {/* <div style = {{height: '100%'}} > */}
-          
-          {/* <div className='profile__bottom-drawer' >
-          <BottomDrawer />
-         </div> */}
-         
-         {/* <div className='profile__bottom-drawer' >
-          <BottomDrawer />
-         </div> */}
-
          <div className='main__bottom-drawer' >
-          <BottomDrawer buttonHandlerToggle={this.buttonHandler} />
-      </div>
+          <BottomDrawer buttonHandlerToggle={buttonHandler} />
+         </div>
 
       </form>
 
