@@ -11,7 +11,7 @@ import BackDrop from "../BackDrop/BackDrop";
 
 export default function Profile() {
 
-  let state = {
+  const state = {
     bottomDrawerOpen: false
   };
 
